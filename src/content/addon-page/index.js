@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Entry point for the addon page.
+ * @module content/addon-page/index
+ */
 import './sass/index.scss'
 
 import _ERRORTRACKER from './../_shared/utils'

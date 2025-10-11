@@ -1,8 +1,15 @@
+/**
+ * @fileoverview Module for handling import and export of data.
+ * @module content/addon-page/modules/import
+ */
 import { _DOMMODULE } from './../../_shared/utils'
 import _STORE from './../_store'
 
 export default function() {
   return new _DOMMODULE({
+    /**
+     * @property {HTMLElement} el - The export section element.
+     */
     el: document.getElementById('export'),
     events: {
       ENV: {
@@ -74,6 +81,14 @@ export default function() {
       document.getElementById('import-error').innerText = reason;
     },
 
+    /**
+     * @method updateExportLinks
+     * @description Updates the download links for exporting local and synced storage data.
+     * This function retrieves the local and synced storage data, converts it to a JSON string,
+     * and sets the `href` attribute of the download links to a data URL representing the JSON data.
+     * This function is essential for the manual export feature and can be leveraged by a future
+     * automatic data sync scheduler to get the data to be synced.
+     */
     updateExportLinks() {
       const localDataLink = document.getElementById('export-local');
       const syncedDataLink = document.getElementById('export-synced');

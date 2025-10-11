@@ -1,5 +1,11 @@
+/**
+ * @fileoverview Log keys for tracking events and errors.
+ * @module data/log-keys
+ */
 export default {
+  /** @property {number} note_pbm - Log key for a private browsing mode note. */
   note_pbm: 1,
+  /** @property {number} note_restoration_failure - Log key for a note restoration failure. */
   note_restoration_failure: 2,
   note_url: 3,
   error_save_style: 4,

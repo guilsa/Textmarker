@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Entry point for the options UI page.
+ * @module content/options-ui/index
+ */
 import './sass/index.scss'
 
 import { _L10N } from './../_shared/utils'

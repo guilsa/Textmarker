@@ -1,6 +1,13 @@
+/**
+ * @fileoverview Store for the addon page.
+ * @module content/addon-page/_store
+ */
 import { _STORE } from './../_shared/utils'
 
 export default new _STORE({
+  /**
+   * @property {object} events - The events handled by the store.
+   */
   events: {
     ENV: {
       'toggled:sync': 'onToggledSync'

@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Module for handling the history page.
+ * @module content/addon-page/modules/history
+ */
 import { _DOMMODULE } from './../../_shared/utils'
 import _STORE from './../_store'
 import _TOGGLER from './toggler'
