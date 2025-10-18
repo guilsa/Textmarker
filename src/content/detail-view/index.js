@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Entry point for the detail view page.
+ * @module content/detail-view/index
+ */
 import './sass/index.scss'
 
 import { _MODULE } from './../_shared/utils'

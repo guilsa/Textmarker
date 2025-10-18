@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Entry point for the toolbar button menu.
+ * @module content/tbb-menu/index
+ */
 import './sass/index.scss'
 
 import _ERRORTRACKER from './../_shared/utils'

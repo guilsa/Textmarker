@@ -1,6 +1,13 @@
+/**
+ * @fileoverview Port for the addon page.
+ * @module content/addon-page/port
+ */
 import { _PORT } from './../_shared/utils'
 
 export default new _PORT({
+  /**
+   * @property {string} name - The name of the port.
+   */
   name: 'addon-page',
   type: 'content',
   events: {

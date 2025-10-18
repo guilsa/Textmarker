@@ -1,6 +1,19 @@
+/**
+ * @fileoverview Default storage object for the extension.
+ * @module data/default-storage
+ */
 export default {
+  /**
+   * @property {string} version - The version of the extension.
+   */
   version: browser.runtime.getManifest().version,
+  /**
+   * @property {object} settings - The default settings for the extension.
+   */
   settings:{
+    /**
+     * @property {object} shortcuts - The default keyboard shortcuts.
+     */
     shortcuts: {
       z: ['ctrlKey-altKey', true],
       y: ['ctrlKey-altKey', true],

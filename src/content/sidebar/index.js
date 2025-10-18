@@ -1,3 +1,7 @@
+/**
+ * @fileoverview Entry point for the sidebar.
+ * @module content/sidebar/index
+ */
 import './sass/index.scss'
 
 import _ERRORTRACKER from './../_shared/utils'
